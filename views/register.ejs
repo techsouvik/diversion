@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- Favicons -->
+    <link href="assets/img/favicon.png" rel="icon" />
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,600,600i,700,700i"
+      rel="stylesheet"
+    />
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" /> 
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-app.js";
+      import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.5.0/firebase-analytics.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      const firebaseConfig = {
+        apiKey: "AIzaSyCtCaJUizO9DZha3nZpP3U1CiYgGB4ZiA0",
+        authDomain: "diversion-bf57f.firebaseapp.com",
+        projectId: "diversion-bf57f",
+        storageBucket: "diversion-bf57f.appspot.com",
+        messagingSenderId: "684241173360",
+        appId: "1:684241173360:web:6f80cddfbb7e10ea5e2db5",
+        measurementId: "G-6VKTZ94XX0"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+      const analytics = getAnalytics(app);
+    </script>
+  </head>
+  <body>
+    <section class="h-100 h-custom" style="background-color: #8fc4b7">
+      <div class="container py-5 h-100">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-lg-8 col-xl-6">
+            <div class="card rounded-3">
+              <img
+                src="https://mdbootstrap.com/img/Photos/new-templates/bootstrap-registration/img3.jpg"
+                class="w-100"
+                style="
+                  border-top-left-radius: 0.3rem;
+                  border-top-right-radius: 0.3rem;
+                "
+                alt="Sample photo"
+              />
+              <div class="card-body p-4 p-md-5">
+                <h3 class="mb-4 pb-2 pb-md-0 mb-md-5 px-md-2">
+                  Registration Info
+                </h3>
+
+                <form class="px-md-2">
+                  <div class="form-outline mb-4">
+                    <input
+                      type="text"
+                      id="form3Example1q"
+                      class="form-control"
+                    />
+                    <label class="form-label" for="form3Example1q">Name</label>
+                  </div>
+
+                  <div class="row">
+                    <div class="col-md-6 mb-4">
+                      <div class="form-outline datepicker">
+                        <input
+                          type="text"
+                          class="form-control"
+                          id="exampleDatepicker1"
+                        />
+                        <label for="exampleDatepicker1" class="form-label"
+                          >Select a date</label
+                        >
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-4">
+                      <select class="select">
+                        <option value="1" disabled>Gender</option>
+                        <option value="2">Female</option>
+                        <option value="3">Male</option>
+                        <option value="4">Other</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <div class="mb-4">
+                    <select class="select">
+                      <option value="1" disabled>Class</option>
+                      <option value="2">Class 1</option>
+                      <option value="3">Class 2</option>
+                      <option value="4">Class 3</option>
+                    </select>
+                  </div>
+
+                  <div class="row mb-4 pb-2 pb-md-0 mb-md-5">
+                    <div class="col-md-6">
+                      <div class="form-outline">
+                        <input
+                          type="text"
+                          id="form3Example1w"
+                          class="form-control"
+                        />
+                        <label class="form-label" for="form3Example1w"
+                          >Registration code</label
+                        >
+                      </div>
+                    </div>
+                  </div>
+
+                  <button type="submit" class="btn btn-success btn-lg mb-1">
+                    Submit
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
