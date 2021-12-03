@@ -1,5 +1,6 @@
 const mongoose = require('mongoose')
-const { string } = require('prop-types')
+// const { string } = require('prop-types')    //only for mac users
+
 
 const newUserSchema = new mongoose.Schema({
      project_nm:String,
